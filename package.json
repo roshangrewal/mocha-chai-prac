@@ -1,0 +1,38 @@
+{
+  "name": "unit-test-prac",
+  "version": "1.0.0",
+  "description": "Just for practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha './specs/**/*.spec.js' ",
+    "coverage": "nyc --reporter=lcov --reporter=text npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roshangrewal/mocha-chai-prac.git"
+  },
+  "keywords": [
+    "mocha",
+    "chai",
+    "unit",
+    "test",
+    "nodejs"
+  ],
+  "author": "Roshan Grewal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roshangrewal/mocha-chai-prac/issues"
+  },
+  "homepage": "https://github.com/roshangrewal/mocha-chai-prac#readme",
+  "dependencies": {
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^8.0.1",
+    "nock": "^13.0.2",
+    "nyc": "^15.1.0",
+    "sinon": "^9.0.2",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0"
+  }
+}
